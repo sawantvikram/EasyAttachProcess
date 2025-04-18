@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\z0051cud\\source\\repos\\EasyAttachProcess\\EasyAttachProcess.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\z0051cud\\source\\repos\\EasyAttachProcess\\EasyAttachProcess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\z0051cud\\source\\repos\\EasyAttachProcess\\EasyAttachProcess.csproj",
+        "projectName": "EasyAttachProcess",
+        "projectPath": "C:\\Users\\z0051cud\\source\\repos\\EasyAttachProcess\\EasyAttachProcess.csproj",
+        "packagesPath": "C:\\Users\\z0051cud\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\z0051cud\\source\\repos\\EasyAttachProcess\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\z0051cud\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "Microsoft.VSSDK.BuildTools": {
+              "target": "Package",
+              "version": "[17.4.2120, )"
+            },
+            "Microsoft.VisualStudio.SDK": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[17.0.32112.339, )"
+            },
+            "envdte": {
+              "target": "Package",
+              "version": "[17.13.40008, )"
+            },
+            "envdte80": {
+              "target": "Package",
+              "version": "[17.13.40008, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
